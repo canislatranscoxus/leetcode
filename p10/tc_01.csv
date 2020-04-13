@@ -1,0 +1,11 @@
+﻿ID,description,expected_result,param_s,param_p
+1,case_1,FALSE,aa,a
+2,case_2,TRUE,aa,aa
+3,case_3,FALSE,aaa,aa
+4,case_4,TRUE,aa,a*
+5,case_5,TRUE,aa,.*
+6,case_6,TRUE,ab,.*
+7,case_7,TRUE,aab,c*a*b*
+8,case_8,FALSE,aaa,aaaa
+9,case_9,TRUE,a,ab*
+10,case_10,FALSE,,bab
